@@ -4,6 +4,10 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:400,500,600,700,800&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,600,700,800&display=swap');
 
+html {
+    scroll-behavior: smooth;
+}
+
 body{
 	 background: #fff;
      font-family: 'Raleway', sans-serif;
@@ -91,7 +95,7 @@ header {padding:10px 0 0 0;}
 
 
 .hire-sec:after {clear:both; display:block; content:"";}
-.hire-sec .left-box {width:50%; float:left; background:#0aa3fe; height:250px; position:relative; padding-left:130px; padding-top:50px;}
+.hire-sec .left-box {width:50%; float:left; background:#0aa3fe; height:250px; position:relative; padding-left:50px; padding-top:50px;}
 .hire-sec .left-box:after {content:""; display:block; width: 0; height: 0; border-style: solid; border-width: 250px 80px 0 0; border-color: #0ba4fe transparent transparent transparent; position:absolute; top:0; right:-80px;}
 .hire-sec .left-box p {font-size:30px; line-height:40px; font-weight:700; text-align:left; color:#FFF;  }
 
@@ -152,7 +156,7 @@ img.vert-move {
 .step-box {background:#FFF; box-shadow:1px 1px 10px 5px #eaeaea; padding:50px ; margin:30px 20px ; text-align:center; border-radius:20px; }
 .step-box:hover img { transform : rotate(360deg); transition:all 1s;}
 .step-box h3 {font-size:30px; font-weight:bold; line-height:40px; color:#000000; margin:20px 0;}
-.step-box p {font-size:20px; font-weight:500; line-height:30px; color:#	000000; }
+.step-box p {font-size:20px; font-weight:500; line-height:30px; color:#000000; }
 
 .footer {background:url(../images/footer-bg.jpg) no-repeat center/cover; padding:50px 0 50px 0;}
 .footer h2 {font-size:50px; line-height:30px; color:#FFF; font-weight:700; text-align:center; margin-bottom:60px;}
