@@ -116,6 +116,13 @@ color:#000000;}
 .copyright ul li a:hover {color:#dbdbdb; }
 img.vert-move {-webkit-animation:mover 0.5s infinite alternate; animation:mover 0.5s infinite alternate;}
 img.vert-move {-webkit-animation:mover 0.5s infinite alternate; animation:mover 0.5s infinite alternate;}
+.foot {padding:50px 0 50px 0;}
+.foot h2 {font-size:35px; line-height:30px; color:#000; font-weight:700; text-align:center; margin-bottom:60px;}
+.foot .f-join {font-size:16px; line-height:20px; font-weight:500; color:#fff; padding:15px 50px; text-align:center; text-transform:uppercase; border:1px solid #ff7a01; margin:0 auto; display:table; background:#ff7a01; z-index:999; position:relative;}
+.foot .f-join:hover {background:#fff; color:#000;}
+.foot hr {color:#FFF; display:block; border-bottom:1px solid #FFF; margin-top:-25px; margin-bottom:25px; z-index:1; width:60%;}
+.foot p {font-size:25px; font-weight:500; line-height:30px; color:#FFF; padding:25px 0; text-align:center;}
+.foot h2 span {color:#ff7a01;}
 
 @-webkit-keyframes mover {
  0% {transform:translateY(0);}
